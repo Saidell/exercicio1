@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<title>Título qualquer</title>
+</head>
+<body>
+
+<form action=/action_page.php>
+
+<fieldset>
+	<legend>Dados Pessoais</legend>
+    <div>
+    <label for="name">1. Nome</label>
+    <input type="text" name="name" id="name" placeholder="Nome e sobrenome" required><br>
+    <label for="email">2. Email</label>
+    <input type="email" name="email" id="email" placeholder="usuario@gmail.com" required><br>
+    <label for="address">3. Endereço</label>
+    <input type="address" name="address" id="address" placeholder="Rua Teste, 100" required><br>
+    <label for="number">4. Telefone</label>
+    <input type="number" name="number" id="number" placeholder="(99)99999-9999" required>
+    <div>
+</fieldset>
+	<div>
+    <label for="deliveryplace">Local de entrega</label><br><br>
+    <label for="residence">1. Residência</label>
+    <textarea name="residence" rows="6" cols="30">Insira a sua residência.</textarea><br><br>
+   	<label for="postalcode">2. Código Postal</label>
+    <input type="number" name="postalcode" id="postalcode" placeholder="99999-999" required><br>
+    <label for="country">3. País</label>
+    <input type="text" name="country" id="country" required>
+    </div>
+    
+</form>
+</body>
+</html>
